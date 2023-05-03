@@ -1,0 +1,392 @@
+{
+	"info": {
+		"_postman_id": "4679e0bd-2a84-438e-87d8-f2d3a7085df2",
+		"name": "Retail Shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Coupon",
+			"item": [
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Coupon/Post/Coupon-Feb/150.0/true/2023-10-23 11:50:23/true"
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Coupon/Put/5/Coupon-Feb/150.0/true/2023-10-20 11:50:23/true"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Active Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Coupon/PutStatus/1/true"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Coupon/Delete/4"
+					},
+					"response": []
+				},
+				{
+					"name": "Select By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Coupon/GetById/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Coupon/Get"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All Active",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Coupon/GetActive"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Category/Post/BCA/true/30",
+						"description": "**Category**\n\nURL => http://localhost:8080/RetailShop/webresources/RetailShop/Category/Post/\n\nMCA => Departement Name\ntrue => Active Status Field\n0 => Parent Category Id"
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Category/Put/32/BCA/false/",
+						"description": "**Category**\n\nURL => http://localhost:8080/RetailShop/webresources/RetailShop/Category/Put/\n\n32 => Category Id which is update\nBCA => Departement Name\nfalse => Active Status Field\n0 => Parent Category Id"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Active Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Category/PutStatus/29/true"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Category/Delete/32"
+					},
+					"response": []
+				},
+				{
+					"name": "Select By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Category/GetById/30"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Category/Get"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All Active",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Category/GetActive"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/UsersAddress/Post/Dhanmora/Katargam/395004/Surat/Gujarat/India/true/44"
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/Put/4/Div1/Sample Test/true/29"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Active Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/PutStatus/4/true"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/Delete/5"
+					},
+					"response": []
+				},
+				{
+					"name": "Select By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/GetById/4"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/Get"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All Active",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/GetActive"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All By Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/GetByCategory/29"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All Active By Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/GetActiveByCategory/29"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product Image",
+			"item": [
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/ProductImage/Post/Image4/6"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/ProductImage/Get"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All By Product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/ProductImage/GetByProductId/6"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/ProductImage/Delete/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User Address",
+			"item": [
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Product/Post/Div2/Sample Test/true/29"
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/UsersAddress/Put/1/Dhanmora/Katargam/395004/Surat/Gujarat/India/false/44"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Active Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/UsersAddress/PutStatus/1/false"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/UsersAddress/Delete/2"
+					},
+					"response": []
+				},
+				{
+					"name": "Select By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/UsersAddress/GetById/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/UsersAddress/Get"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All By User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/UsersAddress/GetByUser/44"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Users/Delete/42"
+					},
+					"response": []
+				},
+				{
+					"name": "Select By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Users/GetById/44"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Users/GetUsers"
+					},
+					"response": []
+				},
+				{
+					"name": "Select All Retailer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/Users/GetRetailer"
+					},
+					"response": []
+				},
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/RetailShop/webresources/RetailShop/User/Post/Abhay/abhaydedje@gmail.com/123456/Abhay/Dedkawala/sample/789532"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
